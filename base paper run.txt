@@ -1,0 +1,18 @@
+# download the zip file from the Zenodo URL
+!wget https://zenodo.org/record/4725222/files/semantic_matching.zip
+
+# unzip the semantic-matching.zip file
+!unzip semantic_matching.zip
+
+# navigate to the directory containing the main.py file
+%cd semantic_mathching
+
+# install bert-serving client
+!pip install bert-serving-client
+
+# run tests
+!python run_all_combinations.py
+
+# print the contents of the results_rank.csv file
+with open('results_rank.csv', 'r') as f:
+    print(f.read())

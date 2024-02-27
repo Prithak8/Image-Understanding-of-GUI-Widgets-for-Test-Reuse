@@ -1,0 +1,35 @@
+delete:
+result_rank.csv
+total_map.csv
+sim_scores/*
+
+edit: config.yml
+model_dir: "/home/ubuntu/Desktop/models/" -> model_dir: "/content/models/"
+comment:active_techniques:
+	  - nnlm
+	  - use
+	  - bert
+	  - glove
+	train_set:
+	  - standard
+
+edit: word_embedding.py
+self.model.wmdistance() -> self.model.wv.wmdistance()
+self.model.similarity() -> self.model.wv.similarity()
+
+run_all_combinations.py
+
+edit: config.yml
+uncomment:active_techniques:
+	  - nnlm
+	  - use
+	  - bert
+	  - glove
+	train_set:
+	  - standard
+
+edit: word_embedding.py
+self.model.wv.wmdistance() -> self.model.wmdistance()
+self.model.wv.similarity() -> self.model.similarity()
+
+run_all_combinations.py

@@ -1,0 +1,21 @@
+# UI Screenshots and View Hierarchies (6 GB)
+!wget https://storage.googleapis.com/crowdstf-rico-uiuc-4540/rico_dataset_v0.1/unique_uis.tar.gz
+!tar -xzvf unique_uis.tar.gz
+
+# UI Metadata (2 MB)
+!wget https://storage.googleapis.com/crowdstf-rico-uiuc-4540/rico_dataset_v0.1/ui_details.csv
+
+# UI Layout Vectors (8 MB)
+!wget https://storage.googleapis.com/crowdstf-rico-uiuc-4540/rico_dataset_v0.1/ui_layout_vectors.zip
+!unzip ui_layout_vectors.zip
+
+# Interaction Traces (6 GB)
+!wget https://storage.googleapis.com/crowdstf-rico-uiuc-4540/rico_dataset_v0.1/traces.tar.gz
+!tar -xzvf traces.tar.gz
+
+# Play Store Metadata (2 MB)
+!wget https://storage.googleapis.com/crowdstf-rico-uiuc-4540/rico_dataset_v0.1/app_details.csv
+
+# UI Screenshots and Hierarchies with Semantic Annotations (150 MB)
+!wget https://storage.googleapis.com/crowdstf-rico-uiuc-4540/rico_dataset_v0.1/semantic_annotations.zip
+!unzip semantic_annotations.zip

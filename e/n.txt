@@ -1,0 +1,55 @@
+ui_details.csv(App Package Name,Interaction Trace Number)
+|
+->UI Number, UI Number in Trace
+
+filtered_traces(App Package Name)
+|
+->App Package Name(trace_ + Interaction Trace Number)
+|
+->trace_ + Interaction Trace Number
+|->gestures.json
+|->view_hierarchies(UI Number in Trace)->UI Number in Trace.json
+
+semantic_annotations(UI Number)->UI Number.json
+
+event_index = counter
+id = UI Number in Trace.json -> resource-id
+text = UI Number in Trace.json -> text
+semantic_rep = UI Number.json -> iconClass/textButtonClass/componentLabel
+file_name
+class = UI Number in Trace.json -> class
+type = UI Number in Trace.json -> clickable/label
+content_desc = UI Number in Trace.json -> content-desc
+hint
+parent_text
+sibling_text
+fillable_neighbor
+neighbors
+label = correct/wrong(gestures.json->UI Number in Trace&&UI Number in Trace.json->min(bounds))
+activity = UI Number in Trace.json -> activity_name
+atm_neighbor
+
+com.discoverfinancial.mobile	Discover Mobile	0
+
+com.pushpay.android.pp 0
+com.yahoo.mobile.client.android.finance 3
+
+consider that i have two files ui_details.csv and app_details.csv as well two folders filtered_traces and semantic_annotations
+the columns in ui_details.csv are UI Number, App Package Name, Interaction Trace Number, UI Number in Trace
+the columns in app_details.csv are App Package Name, Play Store Name, Category, Average Rating, Number of Ratings, Number of Downloads, Date Updated, Icon URL
+semantic_annotations consists of json files describing view hierarchies of ui and are named as UI Number.json
+filtered_traces consists of folders named by App Package Name. Each folder has folders for different Interaction Trace Numbers. Each of these folders has folders has view_hierarchies folder and gestures.json file. the view_hierarchies folder has json files describing the view hierarchies of ui and are named as UI Number in Trace.json
+i need a python program that creates a csv file by collecting specific details from <UI Number in Trace>.json files and respective <UI Number>.json files based on the given csv files. I will specify an App PAckage Name and an Interaction Trace Number. based on that a csv file should be generated for a unique combination of these 2. The csv file should extract 
+id = UI Number in Trace.json -> resource-id
+text = UI Number in Trace.json -> text
+semantic_rep = UI Number.json -> iconClass/textButtonClass/componentLabel
+file_name = ""
+class = UI Number in Trace.json -> class
+type = UI Number in Trace.json -> clickable/label
+content_desc = UI Number in Trace.json -> content-desc
+hint = ""
+parent_text = ""
+sibling_text = ""
+fillable_neighbor = ""
+neighbors = ""
+activity = UI Number in Trace.json -> activity_name

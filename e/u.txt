@@ -1,0 +1,41 @@
+2. Authors are suggested to cite relevant references for the discussion given in the intial
+sections.
+done
+3. Objectives should be limited. Whether the authors accomplished all the objectives in
+the research work if so it should validated through detailed discussion otherwise
+objectives should be revised.
+done
+4. Proposed model discussion should be improved. how semantic matching has been
+performed? What are all the techniques incorporated for semantic matching and how
+the algorithms are selected? all the above queries should be addressed in the
+discussion.
+methodology
+5. Summarized pseudocode or algorithm should be included with brief discussion.
+semantic matching algorithm
+6. Strong interpretation of proposed model experimentation should be included in the
+results section
+not done
+7. Authors are suggested to measure the performance of the proposed model through
+various metrics and discuss the observations in detail.
+done
+8. The discussion given in section 7 should be revised and improved.
+not done
+9. References should be increased. Authors are suggested to increase the references with
+recent research works and discuss the observations in detail.
+done
+2. In what way data extraction is achieved?
+done
+3. How to process the data?
+done
+4. Clarity needed for sematic matching model?
+semantic matching algorithm
+5. Table number is missing.
+done
+6. Literary style of the paper should be improved.
+done
+7. Paper should be prepared as per template prescribed.
+done
+8. Figures are of poor resolution and clarity.
+done
+9. How to improve the interpretability of UI tests?
+graph and table

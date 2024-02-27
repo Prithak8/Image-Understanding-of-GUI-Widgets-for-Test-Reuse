@@ -1,0 +1,13 @@
+event_index,id,text,semantic_rep,file_name,class,type,content_desc,hint,parent_text,sibling_text,fillable_neighbor,neighbors,label,activity,atm_neighbor
+0,,,Web View,,org.apache.cordova.engine.SystemWebView,clickable,,,,,,,correct,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,1,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,2,Text,,android.widget.CheckedTextView,label,,,,,,,correct,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,3,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,4,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,5,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,6,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,7,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,8,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,9,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+1,android:id/text1,10,Text,,android.widget.CheckedTextView,label,,,,,,,wrong,com.dominos.caribbean/com.dominos.caribbean.MainActivity,
+2,,,Web View,,android.webkit.WebView,clickable,,,,,,,correct,com.dominos.caribbean/com.dominos.caribbean.MainActivity,

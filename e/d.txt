@@ -1,0 +1,115 @@
+semfinder
+adaptdroid
+image understanding aerospace
+fullscreen/cropped matching algorithm
+fruiter
+JUnitTestGen/PIVOT
+AppTestMigrator
+TRASM
+CraftDroid
+MAPIT
+Rico
+Semantic Annotation Lexical Database
+LabelDroid
+AppFlow
+IconIntent
+
+com.blodhgard.easybudget_interaction0
+	0language select
+	1select english
+	2ok
+	3add budget
+	4select category bar
+	5save new budget
+	6add budget
+	7select category
+	8select category books
+	9menu
+	10income
+	11add
+	12ok
+	13select category
+	14financial income
+	15select account
+	16new account
+	17save
+	
+com.droid4you.application.wallet_interaction0
+	0skip intro
+	1continue with facebook
+	2continue as user
+	3select currency
+	4start
+	5add expenses and incomes
+	6new recored edit
+	7save record
+	8select category
+	9menu
+	10records
+	11charts
+	12settings
+
+com.everydollar.android_interaction0
+	0back
+	1signup
+	2password
+
+com.finicity.mvelopes_interaction0
+	0sign up
+	1log in
+	2username
+	3login automatically
+	4skip
+	5skip for now
+	6expand_more
+	7add expense
+	8done
+	9arrow back
+	10adjust budget
+	11customize budget
+	12save budget
+com.mint_interaction1
+	0sign up
+	1email
+	2confirm password
+	3sign up
+
+com.blodhgard.easybudget_interaction0,com.droid4you.application.wallet_interaction0
+2,4
+3,6
+4,8
+5,7
+9,9
+com.droid4you.application.wallet_interaction0,com.blodhgard.easybudget_interaction0
+4,2
+6,3
+8,4
+7,5
+9,9
+
+com.blodhgard.easybudget_interaction0,com.finicity.mvelopes_interaction0
+3,7
+5,8
+17,12
+com.finicity.mvelopes_interaction0,com.blodhgard.easybudget_interaction0
+7,3
+8,5
+12,17
+
+com.droid4you.application.wallet_interaction0,com.finicity.mvelopes_interaction0
+0,4
+5,6
+6,7
+7,8
+com.finicity.mvelopes_interaction0,com.droid4you.application.wallet_interaction0
+4,0
+6,5
+7,6
+8,7
+
+com.everydollar.android_interaction0,com.mint_interaction1
+1,0
+2,2
+com.mint_interaction1,com.everydollar.android_interaction0
+0,1
+2,2

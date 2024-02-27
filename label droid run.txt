@@ -1,0 +1,19 @@
+# clone LabelDroid
+!git clone https://github.com/chenjshnn/LabelDroid.git
+
+# get dataset
+!wget -O dataset.zip https://www.dropbox.com/sh/dl/7jwtjhuqh2rit6x/AACJCN_PiuCF25kXVmG8R-k5a/dataset?dl=0&subfolder_nav_tracking=1
+!unzip dataset.zip
+!tar -xzvf Accessibility_Dataset.tar.gz
+
+# get trained models
+!wget -O trained.zip https://www.dropbox.com/sh/dl/7jwtjhuqh2rit6x/AACo-5v5TG0sRXAnkROHRRVxa/Trained_models?dl=0&subfolder_nav_tracking=1
+!unzip trained.zip
+
+# sample run
+!python3 sample.py \
+--image_root sample \
+--vocab_path ./vocabulary/vocab.pkl \
+--caption_model transformer \
+--model_path best_model.ckpt \
+--batch_size 4 
